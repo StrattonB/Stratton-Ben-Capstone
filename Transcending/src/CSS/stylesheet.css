@@ -1,0 +1,197 @@
+/*@font-face {*/
+/*    font-family: 'Chalkduster';*/
+/*    src: url('Chalkduster.ttf.woff') format('woff'), url('Chalkduster.ttf.svg#Chalkduster') format('svg'), url('Chalkduster.ttf.eot'), url('Chalkduster.ttf.eot?#iefix') format('embedded-opentype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+
+/*////////////////////////////////////////*/
+
+
+/*Body and background*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.home-image {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.page-background {
+    width: 100vw;
+    opacity: 0.2;
+    position: fixed;
+}
+
+
+/*///////////////////////////////////////*/
+
+
+/*Navbar*/
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    /*font-family: 'Chalkduster';*/
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    animation: color-change 60s infinite;
+}
+
+.navbar a:hover {
+    background-color: rgb(20, 20, 20);
+    font-size: 35px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+    10% {
+        color: orange;
+    }
+    20% {
+        color: yellow;
+    }
+    30% {
+        color: green;
+    }
+    40% {
+        color: blue;
+    }
+    50% {
+        color: purple;
+    }
+    60% {
+        color: violet;
+    }
+    70% {
+        color: lightskyblue;
+    }
+    80% {
+        color: pink;
+    }
+    90% {
+        color: white;
+    }
+    100% {
+        color: brown;
+    }
+}
+
+h1,
+h2,
+h3 {
+    /*font-family: 'Chalkduster';*/
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 18px;
+    line-height: 2;
+}
+
+section {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*font-family: 'Chalkduster';*/
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.about-transcending {
+    margin-top: 50px;
+    color: red;
+}
+
+.about-board {
+    color: orange;
+}
+
+.meet-the-board {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.about-images {
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+    max-width: 400px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.about-Ben {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    color: green;
+}
+
+.image-Ben {
+    z-index: 1;
+    max-width: 400px;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    margin: auto;
+}
+
+.resources-title,
+.resources-one {
+    color: lightskyblue;
+}
+
+.resources-list {
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+.resources-two {
+    color: pink;
+}
+
+.resources-three {
+    color: pink;
+}
+
+.resources-four {
+    color: pink;
+}
