@@ -1,9 +1,9 @@
-/*@font-face {*/
-/*    font-family: 'Chalkduster';*/
-/*    src: url('Chalkduster.ttf.woff') format('woff'), url('Chalkduster.ttf.svg#Chalkduster') format('svg'), url('Chalkduster.ttf.eot'), url('Chalkduster.ttf.eot?#iefix') format('embedded-opentype');*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*}*/
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('Chalkduster.ttf.woff') format('woff'), url('Chalkduster.ttf.svg#Chalkduster') format('svg'), url('Chalkduster.ttf.eot'), url('Chalkduster.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /*////////////////////////////////////////*/
@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #242526;
 }
 
 .home-image {
@@ -48,7 +48,7 @@ body {
     float: left;
     text-decoration: none;
     font-size: 25px;
-    /*font-family: 'Chalkduster';*/
+    font-family: 'Chalkduster';
     width: 25%;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -109,7 +109,7 @@ body {
 h1,
 h2,
 h3 {
-    /*font-family: 'Chalkduster';*/
+    font-family: 'Chalkduster';
     text-align: center;
 }
 
@@ -124,7 +124,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*font-family: 'Chalkduster';*/
+    font-family: 'Chalkduster';
     text-align: justify;
     line-height: 1.5;
     margin-bottom: 100px;
